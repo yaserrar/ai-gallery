@@ -1,13 +1,33 @@
+"use client";
+
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import DarkModeButton from "./DarkModeButton";
 import { buttonVariants } from "./ui/button";
+import { motion } from "framer-motion";
 
 const Header = () => {
   return (
-    <main className="border-b-2 border-primary fixed top-0 left-0 w-full bg-white dark:bg-black z-50">
+    <motion.section
+      className=" fixed top-0 left-0 w-full bg-white dark:bg-black z-50 shadow-lg shadow-primary/20"
+      id="contact"
+      initial={{
+        y: -50,
+        opacity: 0,
+      }}
+      whileInView={{
+        y: 0,
+        opacity: 1,
+      }}
+      transition={{
+        duration: 0.5,
+      }}
+      viewport={{
+        once: true,
+      }}
+    >
       <nav className="flex justify-between p-2 container max-w-7xl text-sm items-center">
-        <Link href="/" className="font-semibold text-xl text-primary">
+        <Link href="/" className="font-semibold text-xl text-primary p-2">
           AI Art Gallery
         </Link>
         <section className="gap-3 items-center hidden md:flex">
@@ -33,14 +53,17 @@ const Header = () => {
         <div className="flex items-center gap-3">
           <Link
             href="./gallery"
-            className={cn(buttonVariants({ variant: "outline" }))}
+            className={cn(
+              buttonVariants({ variant: "outline" }),
+              "rounded-full"
+            )}
           >
             Discover Art
           </Link>
           <DarkModeButton />
         </div>
       </nav>
-    </main>
+    </motion.section>
   );
 };
 

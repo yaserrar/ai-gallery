@@ -21,7 +21,7 @@ const DarkModeButton = () => {
     <Button
       size="icon"
       variant="outline"
-      className="h-8 w-8"
+      className="h-8 w-8 rounded-full"
       onClick={(e) => (theme === "dark" ? setTheme("light") : setTheme("dark"))}
     >
       {theme === "dark" ? <MoonStar size={16} /> : <Sun size={16} />}
