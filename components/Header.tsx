@@ -26,7 +26,7 @@ const Header = () => {
         once: true,
       }}
     >
-      <nav className="flex justify-between p-2 container max-w-7xl text-sm items-center  opacity-100">
+      <nav className="flex justify-between p-2 container max-w-7xl text-sm items-center opacity-100">
         <Link href="/" className="font-semibold text-xl text-primary p-2">
           AI Art Gallery
         </Link>

@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AI Art Gallery
+
+AI Art Gallery is a [Next.js](https://nextjs.org/) project, developed as challenge for a job application in less than 24 hours.
+
+## Demo
+
+Here is a link for the demo : [AI Art Gallery](https://ai-gallery-red.vercel.app/)
+
+## Features
+
+AI Art Gallery is a platform that showcases AI-generated art and allows users to view, search and download AI-generated art.
 
 ## Getting Started
 
-First, run the development server:
+First, install dependencies:
+
+```bash
+npm i
+```
+
+You will to create a `.env` file for the `DATABASE_URL` of the database that contains the images:
+
+```bash
+DATABASE_URL=.......
+```
+
+I can Provide you this env variable of my test database if you want to run the code locally
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technologies
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+For this project I used many powerful and new technologies:
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- NextJs & ReactJs
+- TypeScript
+- TailwindCss
+- Prisma Orm
+- Framer Motion
+- Next Themes
+- Shadcn UI
+- NeonDb
+- Midjourney
