@@ -39,13 +39,10 @@ const Images = ({ images }: { images: Image[] }) => {
   return (
     <div>
       <div className="flex justify-center p-4">
-        <label
-          htmlFor="email"
-          className="relative text-gray-400 focus-within:text-gray-600 block"
-        >
-          <Search className="pointer-events-none w-8 h-8 absolute top-1/2 transform -translate-y-1/2 left-3" />
+        <label htmlFor="email" className="relative">
+          <Search className="pointer-events-none absolute top-1/2 transform -translate-y-1/2 left-3 text-primary" />
           <Input
-            className="max-w-[400px]"
+            className="max-w-[500px] pl-10"
             placeholder="Search"
             onChange={handleSearch}
           />
