@@ -68,7 +68,7 @@ const ArtImage = ({ image, index }: { image: ImageType; index: number }) => {
                 "rounded-full"
               )}
               href={image.path}
-              download={image.title}
+              download
             >
               Download
             </a>

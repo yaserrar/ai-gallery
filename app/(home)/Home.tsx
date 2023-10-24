@@ -12,8 +12,7 @@ const Home = () => {
 
   return (
     <motion.section
-      className="mt-4"
-      id="about-us"
+      id="home"
       initial={{
         opacity: 0,
       }}

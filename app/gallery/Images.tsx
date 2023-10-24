@@ -40,9 +40,9 @@ const Images = ({ images }: { images: Image[] }) => {
         }}
       >
         <p className="text-4xl text-primary font-semibold w-full text-center py-6 ">
-          Welcome to the AI Art Gallery
+          AI Art Gallery
         </p>
-        <div className="flex justify-center p-4">
+        <div className="flex justify-center p-4 mb-6">
           <label htmlFor="email" className="relative">
             <Search className="pointer-events-none absolute top-1/2 transform -translate-y-1/2 left-3 text-primary" />
             <Input

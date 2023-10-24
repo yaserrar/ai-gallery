@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import { cn } from "@/lib/utils";
 import { NextThemeProvider } from "@/lib/providers/NextThemeProvider";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,6 +24,7 @@ export default function RootLayout({
         <NextThemeProvider>
           <Header />
           <div className="container max-w-7xl">{children}</div>
+          <Footer />
         </NextThemeProvider>
       </body>
     </html>

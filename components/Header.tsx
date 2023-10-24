@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 const Header = () => {
   return (
     <motion.section
-      className=" fixed top-0 left-0 w-full bg-white dark:bg-black z-50 shadow-lg shadow-primary/20"
+      className=" fixed top-0 left-0 w-full bg-white dark:bg-black z-50 opacity-90"
       id="contact"
       initial={{
         y: -50,
@@ -17,7 +17,7 @@ const Header = () => {
       }}
       whileInView={{
         y: 0,
-        opacity: 1,
+        opacity: 0.9,
       }}
       transition={{
         duration: 0.5,
@@ -26,7 +26,7 @@ const Header = () => {
         once: true,
       }}
     >
-      <nav className="flex justify-between p-2 container max-w-7xl text-sm items-center">
+      <nav className="flex justify-between p-2 container max-w-7xl text-sm items-center  opacity-100">
         <Link href="/" className="font-semibold text-xl text-primary p-2">
           AI Art Gallery
         </Link>
