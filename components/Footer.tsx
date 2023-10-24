@@ -25,7 +25,7 @@ const Footer = () => {
         once: true,
       }}
     >
-      <div className="flex">
+      <div className="flex flex-wrap gap-4 md:gap-0">
         <div className="w-full md:w-2/3">
           <Link href="/" className="font-semibold text-xl text-primary">
             AI Art Gallery
