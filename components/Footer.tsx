@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 const Footer = () => {
   return (
     <motion.section
-      className="container max-w-7xl py-6"
+      className="container max-w-7xl py-6 mt-10"
       initial={{
         y: -50,
         opacity: 0,
