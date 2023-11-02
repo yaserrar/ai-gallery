@@ -25,6 +25,7 @@ const DarkModeButton = () => {
       onClick={(e) => (theme === "dark" ? setTheme("light") : setTheme("dark"))}
     >
       {theme === "dark" ? <MoonStar size={16} /> : <Sun size={16} />}
+      {""}
     </Button>
   );
 };
