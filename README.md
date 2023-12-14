@@ -1,10 +1,12 @@
-# AI Art Gallery
+# AI Art Gallery: Next.js 13, React, Tailwind, Midjourney
 
 AI Art Gallery is a [Next.js](https://nextjs.org/) project, developed as challenge for a job application in less than 24 hours.
 
 ## Demo
 
 Here is a link for the demo : [AI Art Gallery](https://ai-gallery-red.vercel.app/)
+
+![Acrt Gallery](./public/ai-art-gallery.png)
 
 ## Features
 
